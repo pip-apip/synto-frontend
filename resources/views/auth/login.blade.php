@@ -7,7 +7,7 @@
         <main id="content" class="w-full max-w-md mx-auto my-auto p-6">
             <a href="index.html" class="header-logo">
             <!-- <img src="{{ asset('assets/img/brand-logos/desktop-logo.png') }}" alt="logo" class="mx-auto block dark:hidden"> -->
-                <img src="{{ asset('assets/img/brand-logos/desktop-light.png') }}" alt="logo" class="mx-auto block">
+                {{-- <img src="{{ asset('assets/img/brand-logos/desktop-light.png') }}" alt="logo" class="mx-auto block"> --}}
             </a>
             <div class="mt-7 bg-white rounded-sm shadow-sm dark:bg-bgdark">
                 <div class="p-4 sm:p-7">
@@ -15,14 +15,14 @@
                         <h1 class="block text-2xl font-bold text-gray-800 dark:text-white">Sign in</h1>
                         <p class="mt-3 text-sm text-gray-600 dark:text-white/70">
                             Don't have an account yet?
-                            <a class="text-primary decoration-2 hover:underline font-medium" href="signup.html">
+                            <a class="text-primary decoration-2 hover:underline font-medium" href="{{ route('register') }}">
                                 Sign up here
                             </a>
                         </p>
                     </div>
 
                     <div class="mt-5">
-                        <button type="button"
+                        {{-- <button type="button"
                             class="w-full py-2 px-3 inline-flex justify-center items-center gap-2 rounded-sm border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-0 focus:ring-offset-0 focus:ring-offset-white focus:ring-primary transition-all text-sm dark:bg-bgdark dark:hover:bg-black/20 dark:border-white/10 dark:text-white/70 dark:hover:text-white dark:focus:ring-offset-white/10">
                             <svg class="w-4 h-auto" width="46" height="47" viewBox="0 0 46 47" fill="none">
                                 <path
@@ -46,7 +46,7 @@
                             Or</div>
 
                         <!-- Form -->
-                        <div>
+                        <div> --}}
                             <div class="grid gap-y-4">
                                 <!-- Form Group -->
                                 <div>
